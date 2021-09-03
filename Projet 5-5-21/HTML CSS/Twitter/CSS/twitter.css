@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+html {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+
+  .main-twitter{
+  	margin-left: 550px;
+  	padding-top: 20px;
+  	height: 500px;
+  	width: 400px;
+  }
+
+  h1{
+  	position: absolute;
+  	left: 600px;
+  	font-size: 45px;
+  	font-family: 'Open Sans', sans-serif;
+  	width: 400px;
+  }
+
+  p{
+    position: absolute;
+    left: 610px
+    
+
+  }
+
+  a{
+  	text-decoration: none;
+  	margin-left: 10px;
+  }
+
+  .forms-input{
+  	padding-top: 40px;
+  	height: 550px;
+  	width: 400px;
+  }
+
+  .forms{
+  	padding-top: 150px;
+  	height: 550px;
+  	width: 400px;
+  }
+
+  input[type="text"],
+input[type="password"]{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: center;
+    align-items: center;
+    align-content: center;
+    background-color: #FAFAFA;
+    border:1px solid rgb(212, 211, 211);
+    width: 80%;
+    height: 10%;
+    font-size: 13px;
+    font-weight: lighter;
+    border-radius: 3px;
+    padding-left: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-left: 40px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+
+input:hover{
+    border: 2px solid #0095F6;
+}
+
+.img-twitter{
+	position: absolute;
+	left: 600px;
+}
+
+.login-form-button{
+    background-color: #0095F6;
+    color: #FFF;
+    border-radius: 30PX;
+    border: 0px;
+    text-align: center;
+    font-size: 14px;
+    padding: 1em;
+    width: 80%;
+    height: 10%;
+    margin-top: 25px;
+    margin-left: 45px;
+    font-weight: bold;
+}
